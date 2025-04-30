@@ -35,6 +35,7 @@ DF <- DF %>% slice(-(2)) #gets rid of second row which also had nonsensical info
 ```
 
 Now fix column names
+
 ```{r}
 new_names <- c("Grad_yr", "declared_yet", "declared_major","planning_bio_major", "planned_major", "non-bio-major", "double-major","double_major_choice", "minor_field","strong_community", "connected_to_faculty", "connected_across_majors", "connected_within_major", "wish_dept_did_more", "dept_is_welcoming", "interest_seminar", "interest_bio_club","interest_field_trips", "interest_more_dept_gatherings", "interest_student_gatherings", "interest_trivia_night", "interest_board_games", "interst_lunch_faculty", "interest_open_office_hours", "interst_fac_research_sems", "interest_fac_lab_tours", "interest_sr_wk", "interst_other", "interest_other_idea", "ideas", "raffle", "score0", "score") #create vector of column names
 
@@ -45,7 +46,6 @@ DF <- DF %>% slice(-(72))
 
 Now add unique ID column
 
-
 ```{r}
 DF <- DF %>% mutate(
   UID = 1:71
@@ -53,22 +53,75 @@ DF <- DF %>% mutate(
 
 DF <- DF %>% relocate(UID, .before = Grad_yr)
 ```
+
+Now add NAs for gaps in data.
+
+```{r}
+DF[DF == ""] <- NA #replaces all blank cells with NA
+```
+Now see if there are any cases with no answers to the data
+
 Get rid of cases with Score = 0 (didn't answer any questions)
 
 ```{r}
+#get rid of score = 0
 dump <- which(DF$score == 0)
 DF <- DF[-dump, ]
+
+find <- which(is.na(DF$score0) & is.na(DF$score))
+DF <-DF[-find,]
+
 ```
-Removed 5 from 71 responses; there are still a few who didn't answer much, but have some useful information.
+There are now 65 responses with helpful information. 
+
 
 ### Get Summary Information
-Of the 66 responses, how many have declared a major, by class year?
+
+Of the 65 responses, how many have declared a major, by class year?
 
 ```{r}
-DF %>% group_by(Grad_yr, declared_yet) %>% summarise(
-  num_case = length(UID)
-)
+DF %>% 
+  group_by(Grad_yr, declared_yet) %>% 
+  summarise(num_case = length(UID)) %>% 
+  ggplot(aes(Grad_yr, num_case, group = declared_yet, fill = declared_yet))+
+    geom_col(position = "dodge")+
+  coord_flip()+
+  labs(x = "Class year", y = "Number of responses")+
+  theme_bw()+
+  theme_teach()
 
+ggsave(here("Output/response_by_year.png"), device = "png")
+```
 
+Now look at the count of majors that have been declared
+
+```{r}
+DF %>% filter(declared_yet == "Yes") %>% 
+  group_by(Grad_yr, declared_major) %>% 
+  summarise(num_case = length(UID)) %>% 
+  ggplot(aes(Grad_yr, num_case, group = declared_major, fill = declared_major))+
+    geom_col(position = "dodge")+
+  coord_flip()+
+  labs(x = "Class year", y = "Number of responses")+
+  theme_bw()+
+  theme_teach()
+
+ggsave(here("Output/num_declared_by_major.png"), device = "png")
+```
+
+Now look at count by planned major
+
+```{r}
+DF %>% filter(declared_yet == "No") %>% 
+  group_by(Grad_yr, planned_major) %>% 
+  summarise(num_case = length(UID)) %>% 
+  ggplot(aes(Grad_yr, num_case, group = planned_major, fill = planned_major))+
+    geom_col(position = "dodge")+
+  coord_flip()+
+  labs(x = "Class year", y = "Number of responses")+
+  theme_bw()+
+  theme_teach()
+
+ggsave(here("Output/num_responses_by_planned_major.png"), device = "png")
 ```
 
