@@ -1,0 +1,74 @@
+---
+title: "Major Survey 2025"
+format: html
+editor: visual
+---
+
+## Introduction
+
+The Biology Department was interested in ideas for how to build community among our students/faculty/staff. Alana Belkevich, Emily Dixon and I formed a subcommittee and one of our actions was to conduct a survey of students to find out their opinions on some of the ideas we generated.
+
+Here I examine those data.
+
+### Set things up
+
+```{r}
+rm(list = ls())
+library(here)
+library(tidyverse)
+```
+
+Pull in the data. There are two versions, one with responses to categorical questions that has the labeled responses, and the other with all responses as numeric.
+
+```{r}
+DF <- read.csv(here("Data/student-survey-2025/major_survey_labeled.csv"), stringsAsFactors = T)
+
+glimpse(DF)
+```
+
+Get rid of unneeded columns
+
+```{r}
+DF <- DF %>% select(Q2:Score) #gets rid of all of the qualtrics junk about IP address, etc.
+
+DF <- DF %>% slice(-(2)) #gets rid of second row which also had nonsensical information
+```
+
+Now fix column names
+```{r}
+new_names <- c("Grad_yr", "declared_yet", "declared_major","planning_bio_major", "planned_major", "non-bio-major", "double-major","double_major_choice", "minor_field","strong_community", "connected_to_faculty", "connected_across_majors", "connected_within_major", "wish_dept_did_more", "dept_is_welcoming", "interest_seminar", "interest_bio_club","interest_field_trips", "interest_more_dept_gatherings", "interest_student_gatherings", "interest_trivia_night", "interest_board_games", "interst_lunch_faculty", "interest_open_office_hours", "interst_fac_research_sems", "interest_fac_lab_tours", "interest_sr_wk", "interst_other", "interest_other_idea", "ideas", "raffle", "score0", "score") #create vector of column names
+
+colnames(DF) <- new_names
+DF <- DF %>% slice(-(1))
+DF <- DF %>% slice(-(72))
+```
+
+Now add unique ID column
+
+
+```{r}
+DF <- DF %>% mutate(
+  UID = 1:71
+)
+
+DF <- DF %>% relocate(UID, .before = Grad_yr)
+```
+Get rid of cases with Score = 0 (didn't answer any questions)
+
+```{r}
+dump <- which(DF$score == 0)
+DF <- DF[-dump, ]
+```
+Removed 5 from 71 responses; there are still a few who didn't answer much, but have some useful information.
+
+### Get Summary Information
+Of the 66 responses, how many have declared a major, by class year?
+
+```{r}
+DF %>% group_by(Grad_yr, declared_yet) %>% summarise(
+  num_case = length(UID)
+)
+
+
+```
+
