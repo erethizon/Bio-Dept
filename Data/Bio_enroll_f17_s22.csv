@@ -1,0 +1,238 @@
+AcYear,Semester,Year,Course_num_official,Course_num_grouped,Course Name,Discipline,CB_type,Enrollment,Cap,Percent_cap
+20212022,fall,2021,BIOL-357,BIOL-357,Behavioral Ecology,Eco_Evo,Adv Eco,14,16,87.5
+20172018,spr,2018,BIOL-4021,BIOL-4021,Community Ecology,Eco_Evo,Adv Eco,8,16,50
+20192020,spr,2020,BIOL-4029,BIOL-4029,Desert Ecology w/Lab,Eco_Evo,Adv Eco,8,16,50
+20182019,spr,2019,BIOL-4026,BIOL-4026,Ecological Modeling,Eco_Evo,Adv Eco,7,16,43.75
+20182019,fall,2018,BIOL-330,BIOL-330,Ecology Lakes & Rivers w/Lab,Eco_Evo,Adv Eco,14,16,87.5
+20192020,fall,2019,BIOL-330,BIOL-330,Ecology Lakes & Rivers w/Lab,Eco_Evo,Adv Eco,15,16,93.75
+20202021,fall,2020,BIOL-330,BIOL-330,Ecology Lakes & Rivers w/Lab,Eco_Evo,Adv Eco,18,16,112.5
+20212022,fall,2021,BIOL-330,BIOL-330,Ecology Lakes & Rivers w/Lab,Eco_Evo,Adv Eco,13,16,81.25
+20172018,fall,2017,BIOL-4018,BIOL-4018,Forest Ecology w/Lab,Eco_Evo,Adv Eco,11,16,68.75
+20212022,fall,2021,BIOL-4018,BIOL-4018,Forest Ecology w/Lab,Eco_Evo,Adv Eco,5,16,31.25
+20192020,spr,2020,BIOL-4004NL,BIOL-4004NL,Symbiosis-No Lab,Eco_Evo,Adv Eco,6,16,37.5
+20172018,spr,2018,BIOL-380,BIOL-380,Tropical Ecology,Eco_Evo,Adv Eco,15,16,93.75
+20182019,spr,2019,BIOL-380,BIOL-380,Tropical Ecology,Eco_Evo,Adv Eco,17,16,106.25
+20202021,fall,2020,BIOL-380,BIOL-380,Tropical Ecology,Eco_Evo,Adv Eco,10,16,62.5
+20192020,spr,2020,BIOL-380SPK,BIOL-380,Tropical Ecology Spk Intensiv,Eco_Evo,Adv Eco,7,16,43.75
+20172018,spr,2018,BIOL-440,BIOL-440,Conservation Biology w/Lab,Eco_Evo,Core,14,16,87.5
+20182019,spr,2019,BIOL-440,BIOL-440,Conservation Biology w/Lab,Eco_Evo,Core,17,16,106.25
+20192020,spr,2020,BIOL-440,BIOL-440,Conservation Biology w/Lab,Eco_Evo,Core,16,16,100
+20202021,spr,2021,BIOL-440,BIOL-440,Conservation Biology w/Lab,Eco_Evo,Core,13,16,81.25
+20212022,spr,2022,BIOL-440,BIOL-440,Conservation Biology w/Lab,Eco_Evo,Core,5,16,31.25
+20172018,fall,2017,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,19,22,86.36363636
+20182019,fall,2018,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,15,16,93.75
+20172018,spr,2018,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,16,16,100
+20192020,fall,2019,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,17,16,106.25
+20182019,spr,2019,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,18,16,112.5
+20202021,fall,2020,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,15,16,93.75
+20192020,spr,2020,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,17,16,106.25
+20212022,fall,2021,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,17,16,106.25
+20202021,spr,2021,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,13,16,81.25
+20212022,spr,2022,BIOL-221,BIOL-221,Ecology w/Lab,Eco_Evo,Core,14,16,87.5
+20172018,fall,2017,BIOL-101,BIOL-101,General Biology I w/Lab,Eco_Evo,Core,192,192,100
+20182019,fall,2018,BIOL-101,BIOL-101,General Biology I w/Lab,Eco_Evo,Core,178,192,92.70833333
+20192020,fall,2019,BIOL-101,BIOL-101,General Biology I w/Lab,Eco_Evo,Core,177,192,92.1875
+20202021,fall,2020,BIOL-101,BIOL-101,General Biology I w/Lab,Eco_Evo,Core,140,192,72.91666667
+20212022,fall,2021,BIOL-101,BIOL-101,General Biology I w/Lab,Eco_Evo,Core,173,192,90.10416667
+20172018,spr,2018,BIOL-102,BIOL-102,General Biology II w/Lab,Molec,Core,133,144,92.36111111
+20182019,spr,2019,BIOL-102,BIOL-102,General Biology II w/Lab,Molec,Core,110,144,76.38888889
+20192020,spr,2020,BIOL-102,BIOL-102,General Biology II w/Lab,Molec,Core,105,144,72.91666667
+20202021,spr,2021,BIOL-102,BIOL-102,General Biology II w/Lab,Molec,Core,86,144,59.72222222
+20212022,spr,2022,BIOL-102,BIOL-102,General Biology II w/Lab,Molec,Core,108,144,75
+20172018,fall,2017,BIOL-245,BIOL-245,Genetics,Molec,Core,31,32,96.875
+20182019,fall,2018,BIOL-245,BIOL-245,Genetics,Molec,Core,22,32,68.75
+20172018,spr,2018,BIOL-245,BIOL-245,Genetics,Molec,Core,31,32,96.875
+20192020,fall,2019,BIOL-245,BIOL-245,Genetics,Molec,Core,19,32,59.375
+20182019,spr,2019,BIOL-245,BIOL-245,Genetics,Molec,Core,31,32,96.875
+20202021,fall,2020,BIOL-245,BIOL-245,Genetics,Molec,Core,24,32,75
+20192020,spr,2020,BIOL-245,BIOL-245,Genetics,Molec,Core,32,32,100
+20212022,fall,2021,BIOL-245,BIOL-245,Genetics,Molec,Core,30,32,93.75
+20202021,spr,2021,BIOL-245,BIOL-245,Genetics,Molec,Core,35,32,109.375
+20212022,spr,2022,BIOL-245,BIOL-245,Genetics,Molec,Core,33,32,103.125
+20192020,fall,2019,BIOL-303,BIOL-303,Bio Statistics,Eco_Evo,Elective,11,16,68.75
+20202021,fall,2020,BIOL-303,BIOL-303,Bio Statistics,Eco_Evo,Elective,11,18,61.11111111
+20212022,fall,2021,BIOL-303,BIOL-303,Bio Statistics,Eco_Evo,Elective,10,18,55.55555556
+20172018,spr,2018,BIOL-3033,BIOL-3033,Blue Planet,Eco_Evo,Elective,13,16,81.25
+20182019,spr,2019,BIOL-3033,BIOL-3033,Blue Planet,Eco_Evo,Elective,5,16,31.25
+20212022,fall,2021,BIOL-130NL,BIOL-130,Carnivory No Lab,Eco_Evo,Elective,20,20,100
+20182019,fall,2018,BIOL-3049,BIOL-3049,Carnivory w/Lab,Eco_Evo,Elective,9,20,45
+20192020,fall,2019,BIOL-130,BIOL-130,Carnivory w/Lab,Eco_Evo,Elective,13,20,65
+20202021,fall,2020,BIOL-130,BIOL-130,Carnivory w/Lab,Eco_Evo,Elective,21,20,105
+20172018,spr,2018,BIOL-230WL,BIOL-230WL,Food From the Sea w/Lab,Eco_Evo,Elective,17,16,106.25
+20182019,spr,2019,BIOL-230WL,BIOL-230WL,Food From the Sea w/Lab,Eco_Evo,Elective,10,16,62.5
+20192020,spr,2020,BIOL-230WL,BIOL-230WL,Food From the Sea w/Lab,Eco_Evo,Elective,10,16,62.5
+20202021,spr,2021,BIOL-230WL,BIOL-230WL,Food From the Sea w/Lab,Eco_Evo,Elective,18,16,112.5
+20212022,spr,2022,BIOL-230WL,BIOL-230WL,Food From the Sea w/Lab,Eco_Evo,Elective,11,16,68.75
+20182019,fall,2018,BIOL-3073,BIOL-3073,Habitat Management,Eco_Evo,Elective,15,16,93.75
+20182019,spr,2019,BIOL-3080,BIOL-3080,Invasive Species,Eco_Evo,Elective,16,16,100
+20172018,fall,2017,BIOL-3023,BIOL-3023,Mist Nets & Museum Ski w/Lab,Eco_Evo,Elective,8,10,80
+20212022,fall,2021,BIOL-3023,BIOL-3023,Mist Nets & Museum Ski w/Lab,Eco_Evo,Elective,9,10,90
+20202021,spr,2021,BIOL-343,BIOL-343,Evolution w/Lab,Eco_Evo,Gen_Evo,12,16,75
+20182019,fall,2018,BIOL-343NL,BIOL-343NL,Evolution-No Lab,Eco_Evo,Gen_Evo,17,20,85
+20182019,fall,2018,BIOL-3072,BIOL-3072,Biology of Dogs w/Lab,NM,NM,16,16,100
+20192020,fall,2019,BIOL-3072,BIOL-3072,Biology of Dogs w/Lab,NM,NM,16,16,100
+20212022,fall,2021,BIOL-3072,BIOL-3072,Biology of Dogs w/Lab,NM,NM,13,16,81.25
+20202021,spr,2021,BIOL-3072,BIOL-3072,Biology of Dogs w/Lab,NM,NM,16,16,100
+20172018,spr,2018,BIOL-121,BIOL-121,Natural World w/Lab,Eco_Evo,NM,19,22,86.36363636
+20182019,spr,2019,BIOL-121,BIOL-121,Natural World w/Lab,Eco_Evo,NM,18,22,81.81818182
+20192020,spr,2020,BIOL-121,BIOL-121,Natural World w/Lab,Eco_Evo,NM,6,22,27.27272727
+20212022,spr,2022,BIOL-121,BIOL-121,Natural World w/Lab,Eco_Evo,NM,19,22,86.36363636
+20182019,fall,2018,BIOL-258NL,BIOL-258NL,Ethnobotany -No Lab,Eco_Evo,Org Div,16,20,80
+20192020,fall,2019,BIOL-258NL,BIOL-258NL,Ethnobotany -No Lab,Eco_Evo,Org Div,20,20,100
+20202021,fall,2020,BIOL-258NL,BIOL-258NL,Ethnobotany -No Lab,Eco_Evo,Org Div,15,20,75
+20212022,fall,2021,BIOL-258NL,BIOL-258NL,Ethnobotany -No Lab,Eco_Evo,Org Div,21,20,105
+20172018,fall,2017,BIOL-258,BIOL-258,Ethnobotany w/Lab,Eco_Evo,Org Div,20,20,100
+20202021,su,2021,BIOL-3095,BIOL-3095,Field Ornithology Seminar,Org,Org Div,7,11,63.63636364
+20182019,spr,2019,BIOL-3081,BIOL-3081,Herpetology w/Lab,Org,Org Div,15,16,93.75
+20212022,spr,2022,BIOL-3081,BIOL-3081,Herpetology w/Lab,Org,Org Div,15,16,93.75
+20192020,spr,2020,BIOL-3081NL,BIOL-3081NL,Herpetology-No Lab,Org,Org Div,19,20,95
+20202021,spr,2021,BIOL-3081NL,BIOL-3081NL,Herpetology-No Lab,Org,Org Div,17,20,85
+20192020,fall,2019,BIOL-4027,BIOL-4027,Insect Biology w/Lab,Org,Org Div,7,11,63.63636364
+20202021,fall,2020,BIOL-4027,BIOL-4027,Insect Biology w/Lab,Org,Org Div,11,11,100
+20182019,fall,2018,BIOL-227,BIOL-227,Mammalogy w/Lab,Eco_Evo,Org Div,15,16,93.75
+20172018,spr,2018,BIOL-3067,BIOL-3067,Microbial Ecology,Eco_Evo,Org Div,8,16,50
+20182019,spr,2019,BIOL-3067WL,BIOL-3067WL,Microbial Ecology w/Lab,Eco_Evo,Org Div,9,16,56.25
+20212022,spr,2022,BIOL-3067WL,BIOL-3067WL,Microbial Ecology w/Lab,Eco_Evo,Org Div,12,16,75
+20172018,fall,2017,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,32,32,100
+20182019,fall,2018,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,32,32,100
+20192020,fall,2019,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,33,32,103.125
+20202021,fall,2020,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,28,32,87.5
+20212022,fall,2021,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,29,32,90.625
+20202021,su,2021,BIOL-231,BIOL-231,Microbiology w/Lab,Org,Org Div,15,16,93.75
+20202021,su,2021,BIOL-4036,BIOL-4036,Mosses & Sedges w/ Lab,Org,Org Div,9,11,81.81818182
+20182019,fall,2018,BIOL-325,BIOL-325,Mycology w/Lab,Org,Org Div,7,11,63.63636364
+20212022,fall,2021,BIOL-325,BIOL-325,Mycology w/Lab,Org,Org Div,5,11,45.45454545
+20192020,spr,2020,BIOL-218,BIOL-218,Ornithology w/Lab,Org,Org Div,13,16,81.25
+20202021,spr,2021,BIOL-218,BIOL-218,Ornithology w/Lab,Org,Org Div,10,16,62.5
+20182019,spr,2019,BIOL-224,BIOL-224,Plant Biology w/Lab,Org,Org Div,7,16,43.75
+20202021,spr,2021,BIOL-224,BIOL-224,Plant Biology w/Lab,Org,Org Div,16,16,100
+20212022,spr,2022,BIOL-224,BIOL-224,Plant Biology w/Lab,Org,Org Div,10,16,62.5
+20172018,fall,2017,BIOL-319,BIOL-319,Plant Systematics w/Lab,Eco_Evo,Org Div,6,11,54.54545455
+20202021,su,2021,BIOL-4035SUR,BIOL-4035SUR,SoilMicrobialDivers&An w/Lab,Org,Org Div,3,11,27.27272727
+20182019,spr,2019,BIOL-4013,BIOL-4013,Adv Extreme Physiology & Medi,Org,,9,,#DIV/0!
+20172018,spr,2018,BIOL-415,BIOL-415,Advanced Biochemistry,Molec,,8,,#DIV/0!
+20182019,spr,2019,BIOL-415,BIOL-415,Advanced Biochemistry,Molec,,4,,#DIV/0!
+20192020,spr,2020,BIOL-415,BIOL-415,Advanced Biochemistry,Molec,,5,,#DIV/0!
+20202021,spr,2021,BIOL-415,BIOL-415,Advanced Biochemistry,Molec,,5,,#DIV/0!
+20212022,spr,2022,BIOL-415,BIOL-415,Advanced Biochemistry,Molec,,5,,#DIV/0!
+20172018,fall,2017,BIOL-4017,BIOL-4017,Advanced Genetics w/Lab,Molec,,6,16,37.5
+20172018,spr,2018,BIOL-389,BIOL-389,Advanced Neuroscience,Nrsci,,15,,#DIV/0!
+20182019,spr,2019,BIOL-389,BIOL-389,Advanced Neuroscience,Nrsci,,20,,#DIV/0!
+20192020,spr,2020,BIOL-389,BIOL-389,Advanced Neuroscience,Nrsci,,21,,#DIV/0!
+20202021,spr,2021,BIOL-389,BIOL-389,Advanced Neuroscience,Nrsci,,11,,#DIV/0!
+20212022,spr,2022,BIOL-389,BIOL-389,Advanced Neuroscience,Nrsci,,15,,#DIV/0!
+20172018,fall,2017,BIOL-341,BIOL-341,Anatomy & Physio I w/Lab,Org,,31,,#DIV/0!
+20182019,fall,2018,BIOL-341,BIOL-341,Anatomy & Physio I w/Lab,Org,,47,,#DIV/0!
+20192020,fall,2019,BIOL-351,BIOL-341,Anatomy & Physio I w/Lab,Org,,29,,#DIV/0!
+20212022,fall,2021,BIOL-341,BIOL-341,Anatomy & Physio I w/Lab,Org,,29,,#DIV/0!
+20202021,spr,2021,BIOL-351,BIOL-341,Anatomy & Physio I w/Lab,Org,,28,,#DIV/0!
+20172018,spr,2018,BIOL-341,BIOL-351,Anatomy&Physio II w/Lab,Org,,39,,#DIV/0!
+20182019,spr,2019,BIOL-341,BIOL-351,Anatomy&Physio II w/Lab,Org,,30,,#DIV/0!
+20202021,fall,2020,BIOL-351,BIOL-351,Anatomy&Physio II w/Lab,Org,,29,,#DIV/0!
+20192020,spr,2020,BIOL-351,BIOL-351,Anatomy&Physio II w/Lab,Org,,21,,#DIV/0!
+20212022,spr,2022,BIOL-351,BIOL-351,Anatomy&Physio II w/Lab,Org,,27,,#DIV/0!
+20172018,fall,2017,BIOL-309,BIOL-309,Biochemistry,Molec,,19,,#DIV/0!
+20182019,fall,2018,BIOL-309,BIOL-309,Biochemistry,Molec,,20,,#DIV/0!
+20172018,spr,2018,BIOL-309,BIOL-309,Biochemistry,Molec,,15,,#DIV/0!
+20192020,fall,2019,BIOL-309,BIOL-309,Biochemistry,Molec,,17,,#DIV/0!
+20182019,spr,2019,BIOL-309,BIOL-309,Biochemistry,Molec,,6,,#DIV/0!
+20202021,fall,2020,BIOL-309,BIOL-309,Biochemistry,Molec,,18,,#DIV/0!
+20192020,spr,2020,BIOL-309,BIOL-309,Biochemistry,Molec,,9,,#DIV/0!
+20212022,fall,2021,BIOL-309,BIOL-309,Biochemistry,Molec,,17,,#DIV/0!
+20202021,spr,2021,BIOL-309,BIOL-309,Biochemistry,Molec,,12,,#DIV/0!
+20212022,spr,2022,BIOL-309,BIOL-309,Biochemistry,Molec,,5,,#DIV/0!
+20172018,spr,2018,BIOL-350,BIOL-350,Cancer Biology,Molec,,4,,#DIV/0!
+20182019,spr,2019,BIOL-350,BIOL-350,Cancer Biology,Molec,,6,,#DIV/0!
+20202021,spr,2021,BIOL-350,BIOL-350,Cancer Biology,Molec,,5,,#DIV/0!
+20212022,spr,2022,BIOL-350,BIOL-350,Cancer Biology,Molec,,5,,#DIV/0!
+20182019,fall,2018,BIOL-387,BIOL-387,Cellular Mechanisms of Memory,Nrsci,,4,,#DIV/0!
+20172018,fall,2017,BIOL-226,BIOL-226,Compara Animal Physiology w/L,Org,,5,16,31.25
+20172018,fall,2017,BIOL-399,BIOL-399,Current Topics Neuroscience,Nrsci,,3,,#DIV/0!
+20192020,fall,2019,BIOL-399,BIOL-399,Current Topics Neuroscience,Nrsci,,4,,#DIV/0!
+20212022,fall,2021,BIOL-399,BIOL-399,Current Topics Neuroscience,Nrsci,,5,,#DIV/0!
+20172018,spr,2018,BIOL-388,BIOL-388,Drugs and the Brain w/Lab,Nrsci,,11,,#DIV/0!
+20182019,spr,2019,BIOL-388,BIOL-388,Drugs and the Brain w/Lab,Nrsci,,10,,#DIV/0!
+20192020,spr,2020,BIOL-388,BIOL-388,Drugs and the Brain w/Lab,Nrsci,,8,,#DIV/0!
+20202021,spr,2021,BIOL-388,BIOL-388,Drugs and the Brain w/Lab,Nrsci,,7,,#DIV/0!
+20212022,spr,2022,BIOL-388,BIOL-388,Drugs and the Brain w/Lab,Nrsci,,4,,#DIV/0!
+20192020,spr,2020,BIOL-4030,BIOL-4030,Epigenetics,Molec,,9,,#DIV/0!
+20202021,su,2021,BIOL-3098,BIOL-3098,Extreme Physiology,Org,,10,,#DIV/0!
+20172018,fall,2017,BIOL-4015,BIOL-235,Foundations of Medicine I,BMS,,10,,#DIV/0!
+20182019,fall,2018,BIOL-4015,BIOL-235,Foundations of Medicine I,BMS,,10,,#DIV/0!
+20192020,fall,2019,BIOL-235,BIOL-235,Foundations of Medicine I,BMS,,8,,#DIV/0!
+20202021,fall,2020,BIOL-235,BIOL-235,Foundations of Medicine I,BMS,,8,,#DIV/0!
+20212022,fall,2021,BIOL-235,BIOL-235,Foundations of Medicine I,BMS,,10,,#DIV/0!
+20172018,spr,2018,BIOL-4016,BIOL-311,Foundations- Medicine II,BMS,,11,,#DIV/0!
+20182019,spr,2019,BIOL-311,BIOL-311,Foundations- Medicine II,BMS,,7,,#DIV/0!
+20192020,spr,2020,BIOL-311,BIOL-311,Foundations- Medicine II,BMS,,6,,#DIV/0!
+20202021,spr,2021,BIOL-311,BIOL-311,Foundations- Medicine II,BMS,,8,,#DIV/0!
+20212022,spr,2022,BIOL-311,BIOL-311,Foundations- Medicine II,BMS,,7,,#DIV/0!
+20202021,fall,2020,BIOL-304,BIOL-304CBL,Health Coaches,BMS,,10,,#DIV/0!
+20172018,fall,2017,BIOL-304CBL,BIOL-304CBL,Health Coaches I w/CBL,BMS,,12,,#DIV/0!
+20182019,fall,2018,BIOL-304CBL,BIOL-304CBL,Health Coaches I w/CBL,BMS,,13,,#DIV/0!
+20192020,fall,2019,BIOL-304CBL,BIOL-304CBL,Health Coaches I w/CBL,BMS,,12,,#DIV/0!
+20212022,fall,2021,BIOL-304CBL,BIOL-304CBL,Health Coaches I w/CBL,BMS,,12,,#DIV/0!
+20172018,spr,2018,BIOL-305CBL,BIOL-304CBL,Health Coaches II w/CBL,BMS,,11,,#DIV/0!
+20182019,spr,2019,BIOL-305CBL,BIOL-304CBL,Health Coaches II w/CBL,BMS,,10,,#DIV/0!
+20192020,spr,2020,BIOL-305CBL,BIOL-304CBL,Health Coaches II w/CBL,BMS,,10,,#DIV/0!
+20202021,spr,2021,BIOL-305CBL,BIOL-304CBL,Health Coaches II w/CBL,BMS,,9,,#DIV/0!
+20212022,spr,2022,BIOL-305CBL,BIOL-304CBL,Health Coaches II w/CBL,BMS,,11,,#DIV/0!
+20182019,fall,2018,BIOL-370,BIOL-370,Hormones Disease&Development,Org,,9,,#DIV/0!
+20192020,fall,2019,BIOL-370,BIOL-370,Hormones Disease&Development,Org,,6,,#DIV/0!
+20212022,spr,2022,BIOL-370,BIOL-370,Hormones Disease&Development,Org,,9,,#DIV/0!
+20192020,spr,2020,BIOL-353,BIOL-353,Human Embryology,Org,,14,,#DIV/0!
+20202021,spr,2021,BIOL-353,BIOL-353,Human Embryology,Org,,9,,#DIV/0!
+20212022,spr,2022,BIOL-353,BIOL-353,Human Embryology,Org,,10,,#DIV/0!
+20182019,fall,2018,BIOL-315,BIOL-315,Human Nutrition,BMS,,14,,#DIV/0!
+20172018,spr,2018,BIOL-315,BIOL-315,Human Nutrition,BMS,,16,,#DIV/0!
+20192020,spr,2020,BIOL-315,BIOL-315,Human Nutrition,BMS,,16,,#DIV/0!
+20202021,spr,2021,BIOL-315,BIOL-315,Human Nutrition,BMS,,16,,#DIV/0!
+20212022,spr,2022,BIOL-315,BIOL-315,Human Nutrition,BMS,,16,,#DIV/0!
+20172018,fall,2017,BIOL-333,BIOL-333,Immunology w/Lab,Molec,,10,,#DIV/0!
+20182019,fall,2018,BIOL-333,BIOL-333,Immunology w/Lab,Molec,,7,,#DIV/0!
+20192020,fall,2019,BIOL-333,BIOL-333,Immunology w/Lab,Molec,,7,,#DIV/0!
+20202021,fall,2020,BIOL-333,BIOL-333,Immunology w/Lab,Molec,,8,,#DIV/0!
+20212022,fall,2021,BIOL-333,BIOL-333,Immunology w/Lab,Molec,,6,,#DIV/0!
+20172018,fall,2017,BIOL-288,BIOL-288,Intro Neuroscience w/Lab,Nrsci,,21,24,87.5
+20182019,fall,2018,BIOL-288,BIOL-288,Intro Neuroscience w/Lab,Nrsci,,23,,#DIV/0!
+20192020,fall,2019,BIOL-288,BIOL-288,Intro Neuroscience w/Lab,Nrsci,,27,,#DIV/0!
+20202021,fall,2020,BIOL-288,BIOL-288,Intro Neuroscience w/Lab,Nrsci,,14,,#DIV/0!
+20212022,fall,2021,BIOL-288,BIOL-288,Intro Neuroscience w/Lab,Nrsci,,27,,#DIV/0!
+20172018,fall,2017,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,22,24,91.66666667
+20182019,fall,2018,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,20,,#DIV/0!
+20172018,spr,2018,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,19,,#DIV/0!
+20192020,fall,2019,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,24,,#DIV/0!
+20182019,spr,2019,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,9,,#DIV/0!
+20202021,fall,2020,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,26,,#DIV/0!
+20192020,spr,2020,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,10,,#DIV/0!
+20202021,spr,2021,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,9,,#DIV/0!
+20212022,spr,2022,BIOL-250,BIOL-250,Intro to Cell Biology,Molec,,10,,#DIV/0!
+20172018,fall,2017,BIOL-3057,BIOL-216,Intro to Public Health,BMS,,18,,#DIV/0!
+20192020,fall,2019,BIOL-3057,BIOL-216,Intro to Public Health,BMS,,16,,#DIV/0!
+20182019,spr,2019,BIOL-3057,BIOL-216,Intro to Public Health,BMS,,14,,#DIV/0!
+20202021,fall,2020,BIOL-216,BIOL-216,Intro to Public Health,BMS,,11,,#DIV/0!
+20192020,spr,2020,BIOL-216,BIOL-216,Intro to Public Health,BMS,,16,,#DIV/0!
+20172018,fall,2017,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,6,,#DIV/0!
+20182019,fall,2018,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,8,,#DIV/0!
+20172018,spr,2018,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,9,,#DIV/0!
+20192020,fall,2019,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,10,,#DIV/0!
+20182019,spr,2019,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,11,,#DIV/0!
+20192020,spr,2020,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,10,,#DIV/0!
+20212022,fall,2021,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,8,,#DIV/0!
+20212022,spr,2022,BIOL-392,BIOL-392,ReMeth:Fluro&ConfocMicros w/L,Molec,,9,,#DIV/0!
+20172018,spr,2018,BIOL-252,BIOL-252,Res Meth Cell Bio w/Lab,Molec,,8,,#DIV/0!
+20192020,spr,2020,BIOL-252,BIOL-252,Res Meth Cell Bio w/Lab,Molec,,11,,#DIV/0!
+20212022,spr,2022,BIOL-252,BIOL-252,Res Meth Cell Bio w/Lab,Molec,,10,,#DIV/0!
+20172018,spr,2018,BIOL-394,BIOL-394,Rsch Methods in Biochemistry,Molec,,13,,#DIV/0!
+20192020,spr,2020,BIOL-394,BIOL-394,Rsch Methods in Biochemistry,Molec,,5,,#DIV/0!
+20202021,spr,2021,BIOL-394,BIOL-394,Rsch Methods in Biochemistry,Molec,,5,,#DIV/0!
+20212022,spr,2022,BIOL-394,BIOL-394,Rsch Methods in Biochemistry,Molec,,9,,#DIV/0!
+20182019,fall,2018,BIOL-395,BIOL-395,RschMeth:Molecular Biol w/Lab,Molec,,17,,#DIV/0!
+20192020,fall,2019,BIOL-395,BIOL-395,RschMeth:Molecular Biol w/Lab,Molec,,6,,#DIV/0!
+20202021,fall,2020,BIOL-395,BIOL-395,RschMeth:Molecular Biol w/Lab,Molec,,14,,#DIV/0!
+20212022,fall,2021,BIOL-395,BIOL-395,RschMeth:Molecular Biol w/Lab,Molec,,14,,#DIV/0!
+20172018,fall,2017,BIOL-391,BIOL-391,Scanning Electron Microscopy,Molec,,1,,#DIV/0!
+20182019,fall,2018,BIOL-391,BIOL-391,Scanning Electron Microscopy,Molec,,2,,#DIV/0!
+20192020,fall,2019,BIOL-391,BIOL-391,Scanning Electron Microscopy,Molec,,4,,#DIV/0!
+20202021,su,2021,BIOL-3097,BIOL-3097,The Science of Brewing,NM,,9,,#DIV/0!
+20212022,spr,2022,BIOL-3097,BIOL-3097,The Science of Brewing,NM,,15,,#DIV/0!

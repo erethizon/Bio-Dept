@@ -1,0 +1,138 @@
+---
+title: "Biology Enrollment Trends"
+author: "Erika Barthelmess"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+Set things up
+```{r}
+rm(list = ls())
+library(here)
+library(tidyverse)
+```
+Pull in data
+```{r}
+DF<-read.csv(here("Data", "CB_enroll_f17_s22.csv"), stringsAsFactors = T)
+```
+
+Rename colums and set things up a bit
+```{r}
+DF<-DF %>% rename(Course = Course.Name)
+```
+Let's add a column for majors/non-majors
+```{r}
+NM<-which(DF$CB_type == "NM")
+DF$major <- "Yes"
+DF$major[NM]<- "No"
+```
+
+Let's get a sense of open seats
+
+```{r}
+DF<-DF %>% mutate(
+  open_seats = Cap - Enrollment)
+
+```
+
+Now just get fall data
+
+```{r}
+Fall<-DF %>% filter(Semester == "fall")
+```
+
+
+Now make a spagetti plot
+
+```{r}
+ggplot(Fall, aes(Year, Enrollment, color = Course, group = Course))+
+  geom_point()+
+  geom_line()
+```
+
+And now do again but omit GB
+```{r}
+fall_noGB <-Fall %>% filter(Course_num_official != "BIOL-101")
+```
+
+```{r}
+ggplot(fall_noGB, aes(Year, Enrollment, color = Course, group = Course))+
+  geom_point()+
+  geom_line()+
+  facet_wrap(~CB_type)
+```
+How are we for percent capacity?
+
+```{r}
+ggplot(fall_noGB, aes(Year, Percent_cap, color = Course, group = Course))+
+  geom_point()+
+  geom_line()+
+  facet_wrap(~CB_type)+
+  geom_hline(yintercept = 100, color = "black")
+```
+
+
+Now get some summary data, including
+Number of courses, by con bio type,  year, and semester
+Number of enrolled seats by con bio type, year, and semester
+Number of available seats by con bio type, year, and semester
+```{r}
+fall_by_type<-fall_noGB %>% group_by(Year, CB_type) %>% summarize(
+  num_classes = length(unique(Course)),
+  hours = sum(Hours),
+  FTE = hours/9,
+  avg_enroll = mean(Enrollment, na.rm = T),
+  sd_enroll = sd(Enrollment, na.rm = T),
+  enrolled_seats = sum(Enrollment, na.rm = T),
+  available_seats = sum(open_seats, na.rm = T),
+  percent_cap = (enrolled_seats/(enrolled_seats+available_seats))*100
+)
+```
+And just across fall semesters in general
+```{r}
+fall_averages<-fall_noGB %>% group_by(Year, major) %>% summarize(
+  num_classes = length(unique(Course_num_grouped)),
+  hours = sum(Hours),
+  FTE = hours/9,
+  avg_enroll = mean(Enrollment, na.rm = T),
+  sd_enroll = sd(Enrollment, na.rm = T),
+  enrolled_seats = sum(Enrollment, na.rm = T),
+  available_seats = sum(open_seats, na.rm = T),
+  percent_cap = (enrolled_seats/(available_seats+enrolled_seats))*100
+)
+```
+Let's look at some plots
+```{r}
+ggplot(fall_averages, aes(Year, percent_cap, group = major, color = major))+
+  geom_point()+
+  geom_line()+
+  geom_hline(yintercept = 100, linetype = "dashed", color = "red")
+```
+```{r}
+ggplot(fall_averages, aes(Year,enrolled_seats, group = major, color = major))+
+  geom_point()+
+  geom_line()+
+  geom_point(aes(Year, available_seats), size = 1.5)+
+  geom_line(aes(Year, available_seats), size = 1.5)
+```
+I'd like to pivot_longer so I can have a category of enrolled vs available seats. Do this for fall_averages ad fall_by_type
+
+```{r}
+fall_averages<-pivot_longer(fall_averages, enrolled_seats:available_seats, names_to = "seat_type", values_to = "Num_seats")
+
+fall_by_type<-pivot_longer(fall_by_type, enrolled_seats:available_seats, names_to = "seat_type", values_to = "Num_seats")
+```
+Now plot
+```{r}
+ggplot(fall_by_type, aes(Year, Num_seats, color = seat_type, group = seat_type))+
+  geom_point()+
+  facet_wrap(~CB_type)
+```
+
+
+
+
+
+
+
+
